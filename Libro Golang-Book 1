@@ -1,0 +1,15 @@
+// Tiu ĉi programo estas ekzerco 5-a de ĉapitro 4-a en Go. 
+// La programo ŝanĝas gradon farenhejtan je gradon celsian. 
+
+package main
+
+import "fmt"
+
+func main() {
+        fmt.Print("Enigu gradon farenhejtan: ")
+        var far float64
+        fmt.Scanf ("%f", &far)
+
+        Cels := (far - 32) * 5.0/9.0
+        
+        fmt.Println(Cels)
